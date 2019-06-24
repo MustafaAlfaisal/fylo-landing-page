@@ -1,0 +1,16 @@
+.container {
+    height: 900px;
+    width: 1440px;  
+    font-family: 'Open Sans', sans-serif;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+
+.img-container {
+    background-color: hsl(243, 87%, 12%);
+}
+
+h1 {
+    font-weight: 700;
+}

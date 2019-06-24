@@ -1,36 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Beta sign up split layout Challenge</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  All your files in one secure location, accessible anywhere.
+    <title>Frontend Mentor | Beta sign up split layout Challenge</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-  Fylo stores all your most important files in one secure location. 
-  Access them wherever you need, share and collaborate with friends, 
-  family and co-workers.
+  <body>
+    <main class="container">
+      <side id="img-container">
+        <img
+          id="illustration-main"
+          src="images\illustration-main.svg"
+          alt="illustration"
+        />
+      </side>
+      <side id="info">
+        <div id="nav-bar">
+          <img src="images\logo.svg" alt="fylo logo" />
+          <img
+            width="120"
+            height="35"
+            src="images\twitter-brands.svg"
+            alt="twitter logo"
+          />
+          <img
+            width="120"
+            height="35"
+            src="images\facebook-f-brands.svg"
+            alt="facebook logo"
+          />
+          <img
+            width="120"
+            height="35"
+            src="images\envelope-solid.svg"
+            alt="mail logo"
+          />
+        </div>
 
-  Sign up for early access
+        <h1>All your files in one secure location, accessible anywhere.</h1>
+        <p>
+          stores all your most important files in one secure location. Access
+          them wherever you need, share and collaborate with friends, family and
+          co-workers.
+        </p>
+        <h3>up for early access Sign Up Privacy Policy</h3>
+        <input />
+        <button>Sign Up</button>
+        <p>Privacy Policy</p>
+      </side>
+    </main>
 
-  Sign Up
-
-  Privacy Policy
-
-  <footer>
-    <p class="attribution">
-      This page started life as a challenge on <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> 🎉
-    </p>
-  </footer>
-</body>
+    <footer>
+      <p class="attribution"></p>
+    </footer>
+  </body>
 </html>
